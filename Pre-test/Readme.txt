@@ -13,6 +13,7 @@ Overview:
 5 - Mouse Hunt (Difficult)
 6 - Keeping Secrets (Very difficult)
 
+To submit files, go into the problem's directory, click and drag your submission into the window.
 Submissions will be assessed on Monday next week.
 
 Good luck!
