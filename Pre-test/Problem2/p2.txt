@@ -1,4 +1,4 @@
-Problem 2 from "Starter Problems 1" in orac.amt.edu.au
+Problem 2 of "Starter Problems 1" from orac.amt.edu.au
 
 Sitting or Standing?
 Input File: sitin.txt

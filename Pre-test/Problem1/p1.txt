@@ -1,4 +1,4 @@
-Problem from "Starter Problems 1" in orac.amt.edu.au
+Problem 1 of "Starter Problems 1" from orac.amt.edu.au
 
 Addition
 Input File: addin.txt

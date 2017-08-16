@@ -1,0 +1,61 @@
+Problem 1 of AIO 2016 from orac.amt.edu.au
+
+Magic Squares
+Time Limit: 1 second
+Memory Limit: 1 GB
+Input File: magicin.txt
+Output File: magicout.txt
+The summer holidays have just started, but before you can go outside and play, you have to finish all of your maths homework. Your maths teacher insists that you fill out a very specific type of Magic Square. In particular:
+
+These magic squares are three by three grids, where each cell contains a single integer.
+Every row and column must sum to the same number (note that the two diagonals do not have to add up to the same number).
+Three cells of the magic square have already been filled: the top-left cell, the top-middle cell, and the middle-left cell. You may fill in the remaining squares with any numbers you wish, though your maths teacher prefers some numbers over other numbers. These numbers are explained in the `Subtasks & Constraints' section. You pull out your trusty laptop and get to work!
+
+Input:
+The first and only line of input will contain three integers: A, B and C.
+
+A is the value in the top-left cell of the magic square.
+B is the value in the top-middle cell of the magic square.
+C is the value in the middle-left cell of the magic square.
+
+Output:
+Your program must output three lines each containing three space-separated integers giving the magic square.
+
+Sample Input:
+1 2 3
+
+Sample Output A:
+1 2 -3
+3 0 -3
+-4 -2 6
+
+Sample Output B:
+1 2 27
+3 26 1
+26 2 2
+
+Sample Output C:
+1 2 14
+3 13 1
+13 2 2
+
+Explanation:
+The sample input corresponds to the following partially filled magic square:
+
+1	2	?
+3	?	?
+?	?	?
+Output A is a magic square where every row/column adds up to 0. This would be a correct output for subtask 1 only (see below for more information).
+Output B is correct for subtasks 1 and 2. Output C is correct for all subtasks.
+
+Subtasks & Constraints:
+You are guaranteed that 1 ≤ A, B, C ≤ 9.
+For all subtasks, you may only use numbers between -1,000,000,000 and 1,000,000,000 inclusive to create your magic square.
+For each subtask, you will be awarded marks based on what numbers you use to fill out the magic square. Namely:
+
+For Subtask 1 (40 marks), you will be marked correct for any valid magic square. In other words, if your program always produces a valid magic square, you will receive at least 40 marks for this problem.
+For Subtask 2 (30 marks), you will be marked correct if all your numbers are positive (greater than zero).
+For Subtask 3 (30 marks), you will be marked correct if all your numbers are between 1 and 20 inclusive.
+
+Submissions:
+Please place your Python3 file inside the same directory as this txt file. Failure to do so will result in a zero score for this problem.

@@ -1,0 +1,60 @@
+Problem 2 of AIO 2006 from orac.amt.edu.au
+
+Mouse Hunt
+Input File: mousein.txt
+Output File: mouseout.txt
+Time Limit: 1 second
+
+As head mouse-hunter, you have just been assigned your latest mission. You are required to track down and capture one of the most dangerous renegade villains known to mouse-kind   Manhattan Mouse. Although Manhattan Mouse can only move north, south, east or west, she can still nibble at the bait in mouse traps without ever being caught.
+
+Every trap consists of a rectangular piece of bait (whether it be cheese, chocolate or chalk). At each trap Manhattan Mouse visits, she bites away a rectangular chunk from one edge of the bait, and scurries off to the next trap before she is discovered.
+
+When she bites into an edge of the bait, Manhattan Mouse is very careful not to touch the other three edges as this would almost certainly set off the trap. In particular, she never touches a corner of the cheese, and she never bites all the way through to the opposite edge.
+
+In order to track down her whereabouts, you have strategically placed a set of traps with baits aligned to Manhattan Mouse's movements. For every bait she nibbles at, you can determine which direction she came from by observing which side the bite is on. For example, in the evidence below, the first bait was bitten from the west side, whereas the second bait was clearly bitten from the north.
+
+[Please refer to "exp1.png" for extra information]
+
+Your task is to determine the direction from which Manhattan Mouse bit into the bait.
+
+Input:
+The input will describe the shape of a piece of bait after a bite has been taken. This input will consist of eight lines, giving the eight corners of the bait. These corners may be listed in any order.
+
+More specifically, each line will consist of two space-separated integers x y, representing the co-ordinates of one corner of the bait. It is guaranteed that 0 <= x,y <= 1,000,000 for each corner.
+
+As illustrated in the diagram above, the x-axis runs east-west (with positive x pointing east and negative x pointing west), and the y-axis runs north-south (with positive y pointing north and negative y pointing south).
+
+Output:
+Your output should consist of one of the letters N, S, E or W depending on whether the bait was bitten from the north, south, east or west respectively.
+
+Sample Input 1:
+1 6
+8 6
+1 5
+2 5
+1 3
+2 3
+1 2
+8 2
+
+Sample Output 1:
+W
+
+Sample Input 2:
+5 10
+10 5
+10 10
+5 5
+6 10
+6 7
+8 7
+8 10
+
+Sample Output 2:
+N
+
+Scoring:
+The score for each input file will be 100% if the correct answer is written to the output file and 0% otherwise.
+
+Submissions:
+Please place your Python3 file inside the same directory as this txt file. Failure to do so will result in a zero score for this problem.

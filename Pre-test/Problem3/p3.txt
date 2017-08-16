@@ -1,4 +1,4 @@
-Problem 1 from the AIO 2012 in orac.amt.edu.au
+Problem 1 of AIO 2012 from orac.amt.edu.au
 
 NORT
 Input File: nortin.txt

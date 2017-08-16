@@ -1,0 +1,48 @@
+Problem 2 of AIC 2000 from orac.amt.edu.au
+
+Keeping Secrets
+Input File: secrtin.txt
+Output File: secrtout.txt
+Time Limit: 0.333 second
+
+Encryption is the science of scrambling messages in order to hide information from prying eyes. As well as a long history in warfare, encryption is vitally important for commercial interests in a highly networked world. In this problem you will implement a simple, well known cipher (encryption algorithm).
+
+Our cipher uses a keyword, which the parties wishing to communicate agree upon and keep secret. Letters of the keyword are used in order to scramble each letter of the message. If the message is longer than the keyword, as is usually the case, we start again at the beginning of the keyword.
+
+To scramble a single letter of the message, the keyword letter is converted to a number where A = 1, B = 2, ..., Z = 26. The letter of the message is then advanced that number of letters in the alphabet. A letter which is advanced past Z returns to A.
+
+For example, with the keyword ABC and the message WXYZ, we proceed as follows:
+
+1. The keyword letter A is used to scramble the message letter W. Now A = 1, so we advance W by one letter, obtaining X.
+2. The keyword letter B is used to scramble the message letter X. Now B = 2, so we advance X by two letters, obtaining Z.
+3. The keyword letter C is used to scramble the message letter Y. Now C = 3, so we advance Y by three letters, obtaining B.
+4. The keyword letter A is used to scramble the message letter Z. Now A = 1, so we advance Z by one letter, obtaining A.
+5. Hence the final, encrypted message is XZBA.
+
+Input:
+The first line of input shall consist of the keyword. The second line of input shall contain the message to encrypt.
+
+Each line of input shall consist entirely of upper case alphabetic characters (i.e. A...Z). Each line of input shall consist of at least 1 and at most 50 characters.
+
+Output:
+Your program shall output a single line consisting of the encryption of the given message with the given keyword.
+
+Sample Input 1:
+ETHAN
+THISISNOTMISSIONDIFFICULTMRHUNT
+
+Sample Output 1:
+YBQTWXHWUANMAJCSXQGTNWCMHRLPVBY
+
+Sample Input 2:
+JAMES
+THENAMEISBONDJAMESBOND
+
+Sample Output 2:
+DIRSTWFVXUYOQOTWFFGHXE
+
+Scoring:
+For each test case, your program shall be awarded 100% of the marks if it outputs the correct encrypted message, and 0% otherwise.
+
+Submissions:
+Please place your Python3 file inside the same directory as this txt file. Failure to do so will result in a zero score for this problem.
