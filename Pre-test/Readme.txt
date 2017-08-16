@@ -1,7 +1,7 @@
 Hi Ed,
 
 The problems here will be focused around past competition papers which become progressively harder as you solve more and more problems.
-They require on reading txt files and processing their content for output in a separate txt file.
+They require you to read txt files and process their content for output in a separate txt file.
 I would actually be very surprised if you could solve them all!
 
 Overview:
