@@ -2,7 +2,7 @@
 
 Hi there,
 
-Welcome to my repository where I help you with python. Please do not call me teacher. :)
+Welcome to my repository where I help you with python.
 
 Every week I will release new modules and challenge problems for you to solve.
 
